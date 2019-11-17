@@ -1,0 +1,43 @@
+/*------------------------
+	icons
+-------------------------*/
+@function unicode($str) {
+  @return unquote("\"\\#{$str}\"");
+}
+
+$icon-elections: unicode(ea02);
+$icon-right-arrow-forward: unicode(ea03);
+$icon-error: unicode(ea04);
+$icon-camera: unicode(ea06);
+$icon-law: unicode(ea07);
+$icon-documents: unicode(ea08);
+$icon-ribbon: unicode(ea09);
+
+.icon-elections::before {
+  content: $icon-elections;
+}
+
+.icon-right-arrow-forward::before {
+  content: $icon-right-arrow-forward;
+}
+
+.icon-error::before {
+  content: $icon-error;
+}
+
+.icon-camera::before {
+  content: $icon-camera;
+}
+
+.icon-law::before {
+  content: $icon-law;
+}
+
+.icon-documents::before {
+  content: $icon-documents;
+}
+
+.icon-ribbon::before {
+  content: $icon-ribbon;
+}
+

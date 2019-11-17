@@ -1,0 +1,377 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Miss Gosauda</title>
+    <link rel="stylesheet" href="fonts/Inter/inter.css" />
+    <link rel="stylesheet" href="fonts/Nucleo/css/style.css" />
+    <link
+      href="https://unpkg.com/tailwindcss@^1.0/dist/tailwind.min.css"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="css/main.min.css" />
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet" />
+  </head>
+  <body>
+    <nav class="nav">
+      <div class="container">
+        <a href="/" class="nav__logo">
+          <img src="img/logo-white.png" alt="" />
+        </a>
+        <ul class="nav__list">
+          <li class="nav__item">
+            <a href="#about" class="nav__link">О конкурсе</a>
+          </li>
+          <li class="nav__item">
+            <a href="#stages" class="nav__link">Этапы проведения </a>
+          </li>
+          <li class="nav__item">
+            <a href="#conditions" class="nav__link">Условия </a>
+          </li>
+          <li class="nav__item">
+            <a href="#prizes" class="nav__link">Призы </a>
+          </li>
+          <li class="nav__item">
+            <a href="#contacts" class="nav__link">Контакты</a>
+          </li>
+        </ul>
+      </div>
+    </nav>
+    <header class="header">
+      <div class="container">
+        <div
+          data-aos="zoom-out"
+          data-aos-delay="700"
+          data-aos-duration="700"
+          data-aos-easing="ease-out-quart"
+          data-aos-once="true"
+        >
+          <h1 class="hero-heading">Участвуй в конкурсе и выиграй iPhone 11</h1>
+
+          <p class="hero-sub">
+            Каждая девушка достойна сказки!
+          </p>
+
+          <div class="flex flex-col items-center mt-48 md:flex-row  md:mt-20">
+            <a href="#about" class="btn btn--lg flex items-center"
+              >О конкурсе
+              <i
+                class="ml-8 text-xl opacity-50 icon icon-right-arrow-forward"
+              ></i
+            ></a>
+            <a href="#stages" class="btn--link md:ml-12 mt-8 md:mt-0"
+              >Этапы проведения</a
+            >
+          </div>
+        </div>
+      </div>
+    </header>
+    <main>
+      <section id="about" class="section section--grey">
+        <div
+          class="container flex flex-col-reverse md:flex-row justify-between items-center"
+        >
+          <div class="max-w-3xl">
+            <h2 class="secondary-heading mb-24">
+              О конкурсе
+            </h2>
+
+            <p class="opacity-50 mb-16">
+              «Miss Gosauda» - это конкурс красоты, которая дает возможность
+              новым лицам столицы. В отличие от традиционных конкурсов, здесь
+              нет ограничении по росту, параметрам, семейному положению и т.д.
+              Подать заявку может каждая девушка г. Нур-Султан, возрастом от 18
+              до 28 лет.
+            </p>
+            <p class="opacity-50 mb-32">
+              Простые этапы участия и прозрачное голосование, дает возможность
+              каждой девушке заявить о себе, найти свой путь в мире красоты. В
+              виде главного приза будет разыгран новый iPhone 11, а также
+              сертификаты Fitness и SPA центров. Также участницы могут стать
+              новыми лицами компании GoSauda и выйти на республиканский уровень
+              конкурса красоты.
+            </p>
+            <div
+              class="flex justify-center md:justify-start items-center flex-wrap"
+            >
+              <a href="#stages" class="mt-8 btn">Этапы проведения</a>
+              <a href="#prizes" class="mt-8 ml-8 btn btn--transparent">Призы</a>
+            </div>
+          </div>
+
+          <div class="mb-20 md:mb-0">
+            <img src="img/iphones.png" alt="" />
+          </div>
+        </div>
+      </section>
+      <section id="stages" class="section">
+        <div class="container">
+          <h2 class="secondary-heading text-center mb-32">
+            Этапы проведения
+          </h2>
+
+          <div class="flex flex-col md:flex-row items-center md:items-stretch">
+            <div
+              class="rule"
+              data-aos="fade-up"
+              data-aos-offset="50"
+              data-aos-delay="0"
+              data-aos-duration="600"
+              data-aos-easing="ease-out-cubic"
+              data-aos-once="true"
+            >
+              <div class="rule__img rule__img--blue">
+                <i class="icon icon-camera"></i>
+
+                <span class="rule__badge">1</span>
+              </div>
+              <h3 class="rule__heading">
+                Первый этап
+              </h3>
+              <p class="rule__text">
+                Отправить заявку на участие в конкурсе опубликовав пост на своей
+                странице. Заявки будут приниматься до 16 ноября. После
+                администрация компании «Gosauda» отберет конкурсанток на 2 этап
+                конкурса.
+              </p>
+            </div>
+            <div
+              class="rule"
+              data-aos="fade-up"
+              data-aos-offset="50"
+              data-aos-delay="100"
+              data-aos-duration="600"
+              data-aos-easing="ease-out-cubic"
+              data-aos-once="true"
+            >
+              <div class="rule__img rule__img--green">
+                <i class="icon icon-elections"></i>
+                <span class="rule__badge">2</span>
+              </div>
+              <h3 class="rule__heading">
+                Второй этап
+              </h3>
+              <p class="rule__text">
+                Конкурсантки, прошедшие на второй этап, будут опубликованы на
+                отдельно созданной странице «Miss Gosauda» в мобильном
+                приложении нашей компании. Любой желающий может отдать свой
+                голос, предварительно скачав мобильное приложение и пройдя
+                регистрацию. Каждый пользователь вправе отдать свой голос только
+                1 раз.
+              </p>
+            </div>
+            <div
+              class="rule"
+              data-aos="fade-up"
+              data-aos-offset="50"
+              data-aos-delay="200"
+              data-aos-duration="600"
+              data-aos-easing="ease-out-cubic"
+              data-aos-once="true"
+            >
+              <div class="rule__img rule__img--yellow">
+                <i class="icon icon-ribbon"></i>
+                <span class="rule__badge">3</span>
+              </div>
+              <h3 class="rule__heading">
+                Третий этап
+              </h3>
+              <p class="rule__text">
+                Открытое голосование будет завершено 16 декабря 2019 года в
+                12:00 по времени Нур-Султан. На официальной странице компании в
+                Instagram будет запущен прямой эфир, где мы объявим список
+                победителей. Также результаты голосования будут опубликованы на
+                странице компании, в виде отдельного поста.
+              </p>
+            </div>
+          </div>
+
+          <h2 id="conditions" class="secondary-heading text-center mb-32 mt-32">
+            Условия
+          </h2>
+          <div class="flex flex-col md:flex-row items-center md:items-stretch">
+            <div
+              class="rule"
+              data-aos="fade-up"
+              data-aos-offset="50"
+              data-aos-delay="0"
+              data-aos-duration="600"
+              data-aos-easing="ease-out-cubic"
+              data-aos-once="true"
+            >
+              <div class="rule__img rule__img--blue">
+                <i class="icon icon-documents"></i>
+              </div>
+              <h3 class="rule__heading">
+                Условия
+              </h3>
+              <p class="rule__text">
+                Вам нужно опубликовать фотографию у себя на странице и отметить
+                хэштег #MissGosauda.
+              </p>
+            </div>
+            <div
+              class="rule"
+              data-aos="fade-up"
+              data-aos-offset="50"
+              data-aos-delay="100"
+              data-aos-duration="600"
+              data-aos-easing="ease-out-cubic"
+              data-aos-once="true"
+            >
+              <div class="rule__img rule__img--green">
+                <i class="icon icon-law"></i>
+              </div>
+              <h3 class="rule__heading">
+                Правила публикации
+              </h3>
+              <div class="rule__text">
+                <ol class="list-decimal">
+                  <li>
+                    Можно использовать одну или несколько фотографии на одном
+                    посте
+                  </li>
+                  <li>
+                    Указать свои ФИО
+                  </li>
+                  <li>Указать возраст</li>
+                  <li>
+                    Подписаться на официальную страницу компании Gosauda, чтобы
+                    следить за новостями о конкурсе
+                  </li>
+                </ol>
+              </div>
+            </div>
+            <div
+              class="rule"
+              data-aos="fade-up"
+              data-aos-offset="50"
+              data-aos-delay="200"
+              data-aos-duration="600"
+              data-aos-easing="ease-out-cubic"
+              data-aos-once="true"
+            >
+              <div class="rule__img rule__img--yellow">
+                <i class="icon icon-error"></i>
+              </div>
+              <h3 class="rule__heading">
+                Что запрещено?
+              </h3>
+              <div class="rule__text">
+                <ol class="list-decimal">
+                  <li>Использовать откровенные фотографии (топлес и т.д.)</li>
+                  <li>Использовать чужие фотографии</li>
+                  <li>
+                    Использовать сторонние приложения, меняющие основные черты
+                    лица (Snapchat и т.д.)
+                  </li>
+                </ol>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section id="prizes" class="section section--grey">
+        <div class="container">
+          <h2 class="secondary-heading text-center">Призы победителям</h2>
+
+          <div class="mt-32 flex flex-col md:flex-row">
+            <div class="card">
+              <div class="card__img">
+                <img src="img/iphone.jpg" alt="" />
+              </div>
+              <h3 class="card__heading">iPhone 11</h3>
+            </div>
+            <div class="card">
+              <div class="card__img">
+                <img src="img/airpods.jpeg" alt="" />
+              </div>
+              <h3 class="card__heading">Airpods 2</h3>
+            </div>
+            <div class="card">
+              <div class="card__img">
+                <img src="img/spa.jpg" alt="" />
+              </div>
+              <h3 class="card__heading">Сертификаты на SPA-процедуры</h3>
+            </div>
+            <div class="card">
+              <div class="card__img">
+                <img src="img/gym.jpg" alt="" />
+              </div>
+              <h3 class="card__heading">Сертификаты на Fitness</h3>
+            </div>
+          </div>
+
+          <h3 class="mt-24 opacity-75">
+            <strong>Примечание</strong>: финалисты конкурса будут иметь
+            возможность пройти на республиканский уровень конкурса красоты от
+            компании «Gosauda» и стать новым рекламным лицом в PR-компании.
+          </h3>
+
+          <div class="text-center mt-24">
+            <a href="#contacts" class="btn btn--secondary">Контакты</a>
+          </div>
+        </div>
+      </section>
+    </main>
+    <footer id="contacts" class="footer pt-32 pb-20">
+      <div class="container bg-white py-16 md:px-20 px-10">
+        <div class="flex flex-col md:flex-row">
+          <div>
+            <h2 class="text-4xl font-bold mb-16">Наши контакты</h2>
+            <p class="opacity-50 mb-16">
+              Казахстан, Нур-Султан <br />
+              Мангилик Ел С4.6<br />
+            </p>
+
+            <p class="opacity-50">
+              <strong>Почта:</strong> info@gosauda.kz <br />
+              <strong>Телефон:</strong> +7 776 12 111 12 <br />
+              <strong>Instagram:</strong> gosauda
+            </p>
+          </div>
+          <div class="mt-20 md:mt-0 md:ml-64 flex-grow">
+            <h2 class="text-4xl font-bold mb-16">
+              Отправьте нам письмо с вопросом
+            </h2>
+            <form class="block">
+              <div class="flex flex-col md:flex-row mb-8">
+                <input
+                  required
+                  class="flex-1 md:mr-12 mb-8 md:mb-0"
+                  type="text"
+                  placeholder="Ваше имя"
+                />
+                <input
+                  required
+                  class="flex-1"
+                  type="text"
+                  placeholder="Ваш e-mail"
+                />
+              </div>
+              <textarea
+                required
+                class="w-full"
+                rows="7"
+                placeholder="Ваше сообщение"
+              ></textarea>
+
+              <div class="text-right">
+                <button type="submit" class="btn mt-8">Отправить</button>
+              </div>
+            </form>
+          </div>
+        </div>
+      </div>
+      <div class="text-center mt-20 text-2xl text-white">
+        © 2019 “Online Sauda”, All Rights Reserved
+      </div>
+    </footer>
+
+    <!-- scripts -->
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script src="js/main.js"></script>
+  </body>
+</html>
